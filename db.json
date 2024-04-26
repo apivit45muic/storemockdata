@@ -1,0 +1,34 @@
+{
+  "discounts": [
+    {
+      "type": "FixedAmountCoupon",
+      "amount": 50
+    },
+    {
+      "type": "PercentageCoupon",
+      "percentage": 10
+    },
+    {
+      "type": "CategoryPercentageDiscount",
+      "category": "Clothing",
+      "percentage": 15
+    },
+    {
+      "type": "PointsDiscount",
+      "pointsToDiscountRatio": 1
+    },
+    {
+      "type": "SeasonalDiscount",
+      "everyXTHB": 300,
+      "discountYTHB": 40
+    }
+  ],
+  "items": [
+    { "name": "T-Shirt", "price": 350, "category": "Clothing" },
+    { "name": "Hat", "price": 250, "category": "Accessories" },
+    { "name": "Hoodie", "price": 700, "category": "Clothing" },
+    { "name": "Watch", "price": 850, "category": "Accessories" },
+    { "name": "Bag", "price": 640, "category": "Accessories" },
+    { "name": "Belt", "price": 230, "category": "Accessories" }
+  ]
+}
