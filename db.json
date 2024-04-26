@@ -15,7 +15,8 @@
     },
     {
       "type": "PointsDiscount",
-      "pointsToDiscountRatio": 1
+      "pointsToDiscountRatio": 1,
+      "maxPercentageCap": 20
     },
     {
       "type": "SeasonalDiscount",
