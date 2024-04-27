@@ -1,28 +1,32 @@
-{
-  "discounts": [
-    {
-      "type": "FixedAmountCoupon",
-      "amount": 50
-    },
-    {
-      "type": "PercentageCoupon",
-      "percentage": 10
-    },
-    {
-      "type": "CategoryPercentageDiscount",
-      "category": "Clothing",
-      "percentage": 15
-    },
-    {
-      "type": "PointsDiscount",
-      "pointsToDiscountRatio": 1,
-      "maxPercentageCap": 20
-    },
-    {
-      "type": "SeasonalDiscount",
-      "everyXTHB": 300,
-      "discountYTHB": 40
-    }
+[
+  {
+    "type": "FixedAmountCoupon",
+    "category": "Coupon",
+    "amount": 50
+  },
+  {
+    "type": "PercentageCoupon",
+    "category": "Coupon",
+    "percentage": 10
+  },
+  {
+    "type": "CategoryPercentageDiscount",
+    "category": "On Top",
+    "categoryName": "Clothing",
+    "percentage": 15
+  },
+  {
+    "type": "PointsDiscount",
+    "category": "On Top",
+    "pointsToDiscountRatio": 1,
+    "maxPercentageCap": 20
+  },
+  {
+    "type": "SeasonalDiscount",
+    "category": "Seasonal",
+    "everyXTHB": 300,
+    "discountYTHB": 40
+  }
   ],
   "items": [
     { "name": "T-Shirt", "price": 350, "category": "Clothing" },
